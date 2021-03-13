@@ -13,6 +13,7 @@ public class AddCart {
 	//@FindBy(xpath="(//a[@href='/cart'])[1]")private WebElement confirmMessage;
 	@FindBy(xpath="//p[@class='content']")private WebElement confirmMessage;
 	
+	
 	public AddCart(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
