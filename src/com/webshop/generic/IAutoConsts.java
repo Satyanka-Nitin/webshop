@@ -1,5 +1,10 @@
-package com.webshop;
+package com.webshop.generic;
 
+/**
+ * This generic interface contains all the Constants of the automation framework
+ * @author Satyanka Arava
+ *
+ */
 public interface IAutoConsts {
 	String PROP_PATH = "./data/config.properties";
 	
